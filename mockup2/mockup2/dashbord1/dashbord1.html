@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashbord1.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="brand">
+                <i class="fa-brands fa-joomla"></i>
+                <span>DesignBrand</span>
+            </div>
+            <nav class="nav">
+                <div class="navmain">MAIN</div>
+                <ul>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-house"></i> <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-regular fa-envelope"></i> <a href="#">Messages</a>
+                    </li>
+                </ul>
+                <ul class="nav apps">
+                    <li class="navmain">APPS</li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-signal"></i><a href="#">Charts</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-file"></i> <a href="#">Forms</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-message"></i> <a href="#">Layout</a>
+                    </li>
+                </ul>
+                <ul class="nav extras">
+                    <li class="navmain">EXTRAS</li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-clock"></i> <a href="#">Timer</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-user"></i> <a href="#">Users</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text">
+                </div>
+                <div class="user-info">
+                    <span>Hi, Brian!</span>
+                    <div class="Brianimg"></div>
+                </div>
+            </header>
+            <div class="cards">
+                <div class="cardcolor">
+                    <div class="card12">
+                        <div class="cardiconsdiv"><i class="fa-solid fa-caret-down"></i>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <div class="card-header card1">
+                            <div class="usericon"><i class="fa-regular fa-user"></i></div>
+                            <p>23,986</p>
+
+                        </div>
+                        <div class="Active">
+                            <h3>Active Users</h3>
+                        </div>
+                    </div>
+                    <div class="card12">
+                        <div class="cardiconsdiv"><i class="fa-solid fa-caret-down"></i>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <div class="card-header card1">
+                            <div class="usericon cart"><i class="fa-solid fa-basket-shopping"></i></div>
+                            <div class="card-body">
+                                <span>965</span>
+                            </div>
+
+                        </div>
+                        <div class="Active" style="background-color: #8dcaa0">
+                            <h3>New Orders</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardcircle">
+                    <div class="card22">
+                        <div class="Barheader">
+                            <div class="card-header22">
+                                <h3>Sample Task 01</h3>
+                            </div>
+                            <div class="cardiconsdiv"><i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
+                        <div class="card-body22">
+                            <div class="progress-circle" data-progress="25">
+                                <div class="progress-text">25%</div>
+                            </div>
+                            <div>
+                                <p class="circlep">Lorem ipsum</p>
+                                <div>Dior sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card22">
+                        <div class="Barheader">
+                            <div class="card-header22">
+                                <h3>Sample Task 02</h3>
+                            </div>
+                            <div class="cardiconsdiv"><i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
+                        <div class="card-body22">
+                            <div class="progress-circle" data-progress="75">
+                                <div class="progress-text">75%</div>
+                            </div>
+                            <div>
+                                <p class="circlep">Tod tincidunt </p>
+                                <div>Ut laoreet dolore magna aliquam erat volutpat, ut wisi enim ad minim veniam.</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cardCalendar">
+                    <div class="card-header">
+                        <h3>Calendar</h3>
+                        <div>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+
+                    </div>
+                    <div class="card-body">
+                        <div id="calendar">
+                            <div class="calendar-header">
+                                <span id="prev-month">&lt;</span>
+                                <span id="month-year"></span>
+                                <span id="next-month">&gt;</span>
+                            </div>
+                            <div class="calendar-days days">
+                                <div>Sun</div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                            </div>
+                            <div class="calendar-dates dates" id="calendar-dates"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="cadsgraps">
+                <div class="card">
+                    <div class="Barheader">
+                        <h3>Progress Bar</h3>
+                        <div class="cardiconsdiv"><i class="fa-solid fa-caret-down"></i>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-bodybar">
+                        <div class="progress-bar">
+                            <div style="display: flex; justify-content: space-between;">
+                                <p>Lorem ipsum</p>
+                                <p>45/200</p>
+                            </div>
+
+                            <div class="progress" style="width: 22.5%;background-color: aqua;"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div style="display: flex; justify-content: space-between;">
+                                <p>Lorem ipsum</p>
+                                <p>550/800</p>
+                            </div>
+
+                            <div class="progress" style="width: 68.75%;background-color: rgb(35, 241, 155);"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div style="display: flex; justify-content: space-between;">
+                                <p>Lorem ipsum</p>
+                                <p>23/1000</p>
+                            </div>
+
+                            <div class="progress" style="width: 23.875%;background-color: rgb(214, 137, 250);"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <div style="display: flex; justify-content: space-between;">
+                                <p>Lorem ipsum</p>
+                                <p>995/1000</p>
+                            </div>
+
+                            <div class="progress" style="width: 99.5%;background-color: rgb(222, 252, 92);"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="Barheader">
+                        <h3>Line Graph</h3>
+                        <div class="cardiconsdiv"><i class="fa-solid fa-caret-down"></i>
+                            <i class="fa-solid fa-x"></i>
+                        </div></div>
+                    <div class="card-body">
+                    <img src="line.jpg" width="500px" height="150px">
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

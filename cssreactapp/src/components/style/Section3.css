@@ -1,0 +1,61 @@
+.Section3{
+    position: absolute;
+    background-color: #242147;
+    z-index: 0;
+    top: 252rem;
+    padding: 5rem;
+    width: 92%;
+}
+
+.Playground{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Playground h2{
+    text-align: left;
+    color: deeppink;
+    padding-left: 2rem;
+}
+
+.Playground h1{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-left: 2rem;
+}
+
+
+.Playground p{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-left: 2rem;
+    text-align: left;
+}
+
+.sandboxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.sandboxes img{
+    width: 400px;
+    align-items: flex-start;
+}
+
+.playground1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-right: 32px;
+}
+.playground1 h3{
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.playground1 div{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}

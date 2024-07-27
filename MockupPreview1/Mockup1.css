@@ -1,0 +1,531 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.maindiv2{
+    width: 75%;
+    margin: auto;
+}
+.headerdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+.menuicon{
+   
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+}
+
+.menudiv{
+    margin: 21px;
+}
+.logoh1{
+    margin-left: 152px;
+    color: silver;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+
+/* section1 */
+
+.section1{
+    background-color: #f8faf9;
+    display: flex;
+}
+
+.modernfun {
+    background-color: #41588e;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 17px;
+    color: white;
+}
+
+.sectionh1{
+        color: #3f557d;
+        font-size: 60px;  
+        font-family: "Roboto Condensed", sans-serif;
+}
+
+.line-break {
+    display: block;
+}
+
+
+.Lorem{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.section1maindiv{
+    margin-top: 7rem;
+    margin-left: -140px;
+}
+
+.readmore{
+    border: 2px solid #3f557d;
+    height: 25px;
+    width: 11rem;
+    text-align: center;
+    padding-top: 12px;
+}
+
+/* section2 */
+.section2{
+    background-color: #42588d;
+}
+.section2div{
+    display: flex;
+    padding: 2rem;
+    gap: 100px;
+}
+.musicimg{
+    height: 2rem;
+    width: 3rem;
+    margin: 14px;
+}
+.imgbackground{
+    height: 4rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: black;
+    background-color: #c2cfed;
+}
+.musicheding{
+    font-weight: 700;
+    color: #fffdfd;
+    font-size: 25px;
+}
+
+.musictext{
+    color: #fffdfd;
+    width: 15rem;
+    font-family: "Dosis", sans-serif;
+}
+
+.layout1{
+    padding: 30px 20px;
+}
+
+.layout2{
+    padding: 160px 20px 26px;
+}
+
+/* section3 */
+.section3{
+    background-color: #eff3fa;;
+}
+
+
+.MusicEducation{
+    padding-top: 35px;
+    text-align: center;
+    color: #42588d;
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.beauty{
+    width: 655px;
+    margin: 20px auto 0;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.beauty1{
+    text-align: center;
+}
+
+.subdivsline{
+    background-color: #c2cfed;
+    width: 50px;
+    height: 10px;
+    margin-bottom: 5px;
+}
+
+.subdivsheading{ 
+    color: #42588d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.375rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.subdivstext{
+    font-style: italic;
+    color: #808080;
+    width: 14rem;
+    margin-bottom: 3rem;
+
+}
+
+.subdivs1{
+    display: flex;
+    gap: 184px;
+}
+
+/* section4 */
+.bgdivwwd{
+    background-color: #42588d;
+    width: 50rem;
+    height: 25rem;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+.bgdivwwd p{
+    color: #eff3fa;
+}
+
+.wwdo{
+    font-family: "Roboto Condensed", sans-serif; 
+    font-weight: 700; 
+    font-size: 3.75rem;
+    line-height: 1.1;
+    padding-top: 4rem;
+    padding-left: 20rem;
+}
+
+.wwdop{
+    margin-left: 300px;
+} 
+
+.contactus{
+    border: 1px solid rgb(255, 255, 255);
+    width: 115px;
+    height: 27px;
+    padding-left: 8px;
+    padding-top: 6px;
+    margin-left: 19rem;
+    color: #eff3fa;
+}
+.Imagefrom{
+    margin-left: 19rem;
+}
+.imageboy{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+}
+.circleimg{
+    position: absolute; 
+    left: 29rem;
+    top: 105rem;
+
+}
+.circle{
+    width: 15rem;
+    height: 15rem;
+    background-color: #c2cfed;
+    border-radius: 50%;
+    margin-left: 49rem;
+    margin-top: 31px;
+
+}
+
+/* section5 */
+.section5{
+    background-color: #eff3fa;
+    height: 60rem;
+}
+
+.imagegruop{
+    height: 551px;
+    width: 935px;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    position: absolute;
+}
+
+
+    .imagegruopdiv {
+        position: relative;
+        background-color: white;
+        width: 33rem;
+        top: 27rem;
+        height: 28rem;
+        left: 17rem;
+        /* flex: 1; */
+        max-width: 100%;
+        transition-duration: inherit;
+    }
+
+  .imagegruopdiv2{ 
+    padding: 35px;
+    font-size: 3.75rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #3e588b;
+} 
+.imagegruopdiv3{
+    padding-left: 38px;
+    padding-right: 28px;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+.imagegruopdiv4{
+    border: 2px solid black;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-style: solid;
+    margin: 20px auto 0 0;
+    padding: 10px 57px;
+    width: 140px;
+    margin-left: 33px;
+}
+.imggirl{
+    width: 19rem;
+    height: 21rem;
+    position: absolute;
+    top: 179rem;
+    left: 71rem;
+}
+.colordiv{
+    background-color: #41588e;
+    width: 60rem;
+    height: 50rem;
+    position: absolute;
+    left: 59rem;
+
+}
+
+.missiondiv{    margin: 6rem;}
+.mission{
+    font-family: Montserrat, sans-serif !important;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 80px 0 0 80px;
+    font-size: 27px;
+}
+.mission1{
+    width: 27rem;
+    font-size: 20px;
+    margin: 20px 0 0 80px;
+    font-family: Montserrat, sans-serif;
+    color: #808080;
+}
+.missiongirl{
+    width: 250px;
+    height: 300px;
+    margin-left: 50rem;
+    margin-top: -163px;
+}
+.missiongirl1{
+    width: 300px;
+    height: 250px;
+    margin-top: -5rem;
+}
+.mission2{
+    margin-left: 41rem;
+    margin-top: -7rem;
+}
+.mission3{
+    margin-left: 41rem;
+}
+/* section6 */
+.section6{
+    margin-bottom:50px
+}
+.boxcolor2{
+    width: 58rem;
+    height: 5rem;
+    margin-left: 36rem;
+    background-color: #42588d;
+}
+.boxcolor3{
+    margin-left: 38rem;
+    margin-top: -11px;
+    width: 45rem;
+    height: 28rem;
+    background-color: #99aedf;
+}
+
+.girlgetar{
+    width: 70rem;
+    height: 500px;
+    margin-left: 30rem;
+}
+.MusicSchool{
+    position: absolute;
+    top: 292rem;
+    left: 25rem;
+    width: 42rem;
+    height: 24rem;
+    background-color: #ffffff;
+}
+.MusicSchool1{
+    font-size: 3.75rem;
+    letter-spacing: normal;
+    text-transform: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 47px;
+    color: #41588e;
+}
+.MusicSchool2{
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.8;
+    margin: 32px 0 0;
+}
+.imagegruopdiv31{
+    margin-left: -37px;
+}
+.imagegruopdiv311{
+    margin-left: -5px;
+}
+
+
+/* section7 */
+.section7{
+ 
+    background-color: #eff3fa;
+}
+.psychology{
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    background-color: #41588e;
+}
+.psychology{
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 12rem;
+    word-wrap: break-word;
+    position: relative;
+}
+.mollisdiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+.manimg{
+    width: 300px;
+    height: 300px;
+}
+.psychologydiv{
+    display: flex;
+   
+    padding-top: 59px;
+    height: 40rem;
+}
+.mandiv{
+    text-decoration: none solid rgb(17, 17, 17);
+    font-weight: 700;
+    margin: 20px auto 0 0;
+    color: #455890;
+    font-size: 1.375rem;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+}
+.mandiv1{
+    font-family: Arial, sans-serif;
+    padding-right: 483px;
+    word-wrap: break-word;
+}
+
+/* section8 */
+.section8{
+    background-color: #42588d;
+    margin-top: -16px;
+    height: 50rem;
+}
+.Contact1{
+    width: 41rem;
+    height: 29rem;
+    background-color: #ffffff;
+    margin-left: 53rem;
+    position: absolute;
+    top: 374rem;
+}
+
+.contactus1{
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1.1;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.Enter{
+    color: #38343478;
+    width: 400px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-left: 208px;
+    margin-bottom: 36px;
+    padding-bottom: 10px;
+}
+.SUBMIT{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 328px;
+    margin-bottom: 10px;
+    padding-top: 11px;
+    width: 161px;
+    height: 32px;
+}
+.boyimg{
+    position: absolute;
+    width: 468px;
+    height: 385px;
+    margin-left: 13rem;
+    z-index: 2;
+    top: 383rem;
+    left: 22rem;
+
+}
+.Contact12{
+    background-color: #ffffff;
+    width: 51rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 39rem;
+    top: 407rem;
+    z-index: 2;
+
+}
+.call{
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    color: #42588d;
+}
+
+.call1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+footer{
+  
+        margin-top: -1rem;
+        margin-bottom: 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        /* width: 10rem; */
+        background-color: black;
+        color: #eff3fa;
+        text-align: center;
+        height: 13rem;
+    
+}

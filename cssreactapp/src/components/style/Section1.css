@@ -1,0 +1,100 @@
+.section1maindiv {
+  background-color: #282061;
+  padding: 5rem;
+  width: 92%;
+  position: absolute;
+  z-index: 0;
+  top: 182px;
+}
+
+.leaderdiv1 {
+  background-color: #1e183f;
+  border-radius: 10px;
+  display: flex;
+  padding: 4rem;
+}
+.leaderdiv2 {
+  flex-direction: column;
+  padding-right: 15rem;
+  padding-left: 5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.leaderh31 {
+  font-size: 18px;
+  color: deeppink;
+}
+.leaderh11 {
+  font-size: 48px;
+  line-height: 1.4;
+  color: #fff;
+  padding-right: 6rem;
+  word-break: normal;
+}
+
+.leaderh32 {
+  font-size: 17px;
+  line-height: 1.4;
+  color: #fff;
+  word-break: normal;
+}
+
+.view {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.img1 {
+  width: 600px;
+}
+
+
+
+.imeages img {
+    transition: transform 0.3s ease, border 0.3s ease; 
+    /* transform: scale(1);  */
+    max-height: 84px;
+  }
+.imeages img:hover {
+  border: 2px solid deeppink;
+  border-radius: 10px;
+  max-height: 84px;
+  top: -10px;
+  position: relative;
+  transform: scale(1.1);
+  
+}
+.imeages {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.coursesh3{
+color: #fff;
+font-size: 28px;
+line-height: 1.2;
+}
+
+.Browsediv{
+    color: #fff;
+    line-height: 1.2;
+    font-size: 17px;
+}
+
+.section1maindiv2{
+    max-width: 1400px;
+    display: flex;
+    margin: 4rem;
+align-items: center;
+    justify-content: space-between;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+

@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.star-rating {
+  display: inline-block;
+  font-size: 2rem;
+  color: gold;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.star1 {
+  display: inline-block;
+  font-size: 2rem;
+  color: rgb(255, 255, 255) !important;
+  border: 1px solid black;
+}
+
+.cardscontainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+  align-items: center;
+  border: 2px solid rgba(100, 98, 98, 0.219);
+}
+
+.img {
+  max-width: 15rem;
+}
+.cardsdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 5px;
+}
+.cardsp {
+  margin-right: 93px;
+  color: #8c8e90;
+}
+
+.cardsh3 {
+  border-bottom: 2px solid #00000073;
+  margin-top: 17px;
+  padding-bottom: 18px;
+}
+.data {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.carddata {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+}
+
+/* card2 */
+.cardscontainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem;
+
+  /* max-width: 50%; */
+}
+
+.card2 {
+  display: flex;
+  gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+  width: 900px;
+  height: 188px;
+}
+
+.color1 {
+  background-color: #d90045;
+}
+.color2 {
+  background-color: #7254f2;
+}
+.color3 {
+  color: #e7e6e6;
+  font-size: 12px;
+}
+.COURSEcard {
+  padding: 25px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  color: #fff;
+}
+
+.CHAPTERdiv {
+  padding: 25px;
+}
+
+.CHAPTER {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(20, 20, 20, 0.521);
+  font-size: 12px;
+}
+
+.CHAPTERdiv p {
+  font-size: 18px;
+}
+
+.button {
+  border-radius: 25px;
+  max-width: 7rem;
+  padding: 0.5rem;
+  margin-left: 24rem;
+  color: #fff;
+  text-align: center;
+}
+
+.button p{
+ font-size: 15px !important;
+}
+.line {
+    /* border: 0.5px solid; */
+    width: 190px;
+    height: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: lightgray;
+    position: relative;
+}
+.fill1 {
+    background-color: #d90045;
+    width: 40%; 
+    height: 100%;
+    border-radius: 5px;
+}
+
+.fill2 {
+    background-color: #7254f2;
+    width: 40%; 
+    height: 100%;
+    border-radius: 5px;
+}
