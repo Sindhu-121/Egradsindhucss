@@ -3,6 +3,8 @@ import "./style/Section3.css";
 import playground from "./images/cloud-playground.webp";
 import practice from "./images/practice-exams.webp";
 import labs from "./images/hands-on-labs.webp";
+import library from "./images/cloud-learning-library .webp"
+import amazon from "./images/amazon-web-services.webp"
 const Section3 = () => {
   return (
     <div className="Section3">
@@ -46,6 +48,61 @@ const Section3 = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="subsection">
+        <h4>This will teach you</h4>
+        <h2>Comprehensive cloud learning library</h2>
+        <div>With hundreds of courses and thousands of labs, we give you plenty of room to roam. Whether you’re accelerating your own career or skilling up teams, you can go as broad or as deep as you need, and then some.</div>
+        <div>
+        We offer full certification training and technical deep dives for Amazon Web Services, Microsoft Azure, Google Cloud Platform, and so much more. What would you like to learn?
+        </div>
+        <p>View all courses </p>
+        <img src={library} />
+<div>
+
+  <div>
+  <div>
+    <img src={amazon}/>
+    <h1>Amazon Web Services</h1>
+    <h5>We're an AWS Advanced Consulting Partner, and have trained over two million engineers on AWS.</h5>
+    <p>Access all AWS Certification Courses</p>
+    <p>Hundreds of hours of certification & courses</p>
+    <p>Thousands of quiz questions</p>
+    <div>Browse AWS courses</div>
+  </div>
+  <div>
+    <img src={amazon}/>
+    <h1>Amazon Web Services</h1>
+    <h5>We're an AWS Advanced Consulting Partner, and have trained over two million engineers on AWS.</h5>
+    <p>Access all AWS Certification Courses</p>
+    <p>Hundreds of hours of certification & courses</p>
+    <p>Thousands of quiz questions</p>
+    <div>Browse AWS courses</div>
+  </div>
+  </div>
+  <div>
+  <div>
+    <img src={amazon}/>
+    <h1>Amazon Web Services</h1>
+    <h5>We're an AWS Advanced Consulting Partner, and have trained over two million engineers on AWS.</h5>
+    <p>Access all AWS Certification Courses</p>
+    <p>Hundreds of hours of certification & courses</p>
+    <p>Thousands of quiz questions</p>
+    <div>Browse AWS courses</div>
+  </div>
+  <div>
+  </div>
+  
+    <img src={amazon}/>
+    <h1>Amazon Web Services</h1>
+    <h5>We're an AWS Advanced Consulting Partner, and have trained over two million engineers on AWS.</h5>
+    <p>Access all AWS Certification Courses</p>
+    <p>Hundreds of hours of certification & courses</p>
+    <p>Thousands of quiz questions</p>
+    <div>Browse AWS courses</div>
+  </div>
+</div>
       </div>
     </div>
   );

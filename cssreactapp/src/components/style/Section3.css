@@ -59,3 +59,20 @@
     text-align: left;
     color: rgb(255, 255, 255);
 }
+
+
+/* subsection */
+.subsection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.subsection h4{
+    color: deeppink;
+text-align: left;
+}
+
+.subsection h2{
+    color: deeppink;
+text-align: left;
+}
