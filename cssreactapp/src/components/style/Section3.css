@@ -66,6 +66,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #f4f7fa;
+    position: absolute;
+    z-index: 0;
+    top: 299rem;
+    padding: 5rem;
+    width: 92%;
 }
 .subsection h4{
     color: deeppink;
@@ -73,6 +79,169 @@ text-align: left;
 }
 
 .subsection h2{
-    color: deeppink;
+    color: rgb(0, 0, 0);
 text-align: left;
+}
+
+.subsection div{
+    text-align: left;
+    color: #000000;
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+
+.subsection p{
+    color: deeppink;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Comprehensive{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.Comprehensive img{
+    width: 700px;
+}
+
+.Amazon{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-direction: column;
+    
+}
+
+.Amazon img{
+    width: 100%;
+    border-radius: 15px;
+    align-items: center;
+}
+.Services {
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  gap: 15rem;
+}
+.Advanced p{
+    color: #a1a0a0;
+    padding-left: 6px;
+}
+.Advanced div{
+color: deeppink;
+font-weight: 600;
+}
+.Advanced{
+    border-radius: 15px;
+    gap: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #000000 !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Plans{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #241d52;
+    position: absolute;
+    z-index: 0;
+    top: 435rem;
+    padding: 5rem;
+    width: 92%;
+    align-items: center;
+    color: #f4f7fa;
+    gap: 1.5rem;
+}
+.Individualdiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    border-radius: 45px;
+    border: 5px solid #6559b1;
+    width: 400px;
+}
+.Individual{
+    background-color: #f4f7fa;
+    padding:1rem;
+    border-radius: 45px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 30px;
+    width: 250px;
+}
+.Team{
+    width: 250px;
+    font-size: 30px;
+    padding:1rem;
+    font-weight: 500;
+}
+.Plans img{
+    width: 400px;
+}
+.Monthly{
+    background-color: #1a1537;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 4rem;
+}
+.Monthly p{
+   font-size: 30px;  
+}
+.Personal{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    /* flex-direction: column; */
+}
+
+.Basic{
+    padding: 5rem;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Basic h1{
+    font-size: 40px;
+}
+.Basic p{
+    font-size: 15px;
+}
+.Basic div{
+    font-size: 20px;
+}
+
+.Plus{
+    color: #fff;
+    background-color: deeppink;
+    border-radius: 25px;
+    padding: 1rem;
+    width: 200px;
+}
+
+.FREE{
+    color: deeppink;
+    font-size: 20px !important;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 10px;
 }
