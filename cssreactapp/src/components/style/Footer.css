@@ -1,0 +1,70 @@
+.footer{
+    position: absolute;
+    top: 488rem;
+    z-index: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #242145;
+    padding: 60px 24px 48px;
+    color: azure;
+}
+
+.Support1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    
+}
+
+.Support1 div {
+    text-align: left;
+}
+.Support1 ul li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: left;
+    color: #aaa4ed;
+}
+
+.Email{
+    width: 200px;
+    height: 20px;
+    border: 2px solid #aaa4ed;
+    border-radius: 5px;
+}
+.Support1 p,h6{
+    color: #aaa4ed;
+    padding: 3px;
+}
+.brands1 i{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.Submit11{
+    background-color: deeppink;
+    border-radius: 25px;
+    text-align: center !important;
+    font-size: 25px;
+    padding: 10px;
+    width: 100px;
+    margin: 4px;
+    font-weight: 400;
+}
+.Copyright11{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    color: #aaa4ed;
+}
+
+.Copyright11 img{
+    width: 50px;
+}
+
+
+.Copyright12{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
