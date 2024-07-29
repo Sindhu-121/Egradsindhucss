@@ -123,7 +123,7 @@ text-align: left;
     display: flex;
     justify-content: space-between;
   align-items: center;
-  gap: 15rem;
+  gap: 2rem;
 }
 .Advanced p{
     color: #a1a0a0;
@@ -152,7 +152,7 @@ font-weight: 600;
     background-color: #241d52;
     position: absolute;
     z-index: 0;
-    top: 424rem;
+    top: 380rem;
     padding: 5rem;
     width: 92%;
     align-items: center;

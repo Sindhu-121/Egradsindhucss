@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+
 }
 .Container {
   display: flex;
@@ -61,8 +62,6 @@
   color: #ecf0f1;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
-  /* height: 100%; */
   align-items: center;
   padding: 2rem;
 }
@@ -90,6 +89,61 @@
   gap: 1rem;
 }
 
+
+.sidebaritems {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebaritems i {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.sidebaritems p {
+  margin: 0;
+  font-size: 1.2em;
+  flex-grow: 1;
+}
+
+.sidebaritems .submenu-icon {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.sidebaritems:hover {
+  background-color: #f39a63;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.submenu {
+  display: none;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.submenu p {
+  padding-left: 52px;
+  color: #bdc3c7;
+}
+
+.submenu p:hover {
+  color: #fff;
+}
+
+
+/* .sidebaritems.active .submenu-icon {
+  transform: rotate(180deg);
+} */
+
 .sidebaritems1 {
   display: flex;
   flex-direction: column;
@@ -106,15 +160,24 @@
   width: 100%;
   
 }
+.sections{
+  width: 80%;
+}
 
 .card {
-  width: 13rem;
+  padding: 1rem;
+    width: 23rem;
   height: 11rem;
   display: flex;
   gap: 0.5rem;
   flex-direction: column;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardp{
+  color: #1e345b;
+padding-left: 15px;
 }
 
 .bottomdiv{
@@ -126,9 +189,10 @@
 
 .section2{
     display: flex;
-    justify-content: space-between;
+    
     width: 100%;
     margin: 2rem;
+    gap: 3rem;
 }
 
 .BarGraph{
@@ -137,6 +201,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    width: 53rem;
 }
 
 .BarGraphdiv{
@@ -148,5 +213,6 @@
 }
 
 .BarUsers{
+  width: 41rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

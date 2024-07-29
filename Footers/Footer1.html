@@ -35,6 +35,7 @@ ul{
     list-style-type: none;
 }
 .main{
+    align-items: center;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -42,6 +43,8 @@ ul{
 }
 .rigthtpad{
     width: 50%;
+    padding-bottom: 15px;
+    padding-top: 1px;
     /* padding: 2% 5%; */
 }
 .rowflex{
@@ -61,18 +64,22 @@ ul{
 }
 .serachdiv{
     display: flex;
-    /* flex-direction: row; */
     gap: 1rem;
     width: 80%;
 }
 .inputdiv{
    width: 80%;
+display: flex;
+justify-content: space-between;
+gap: 10px;
  
 }
 input{
+    padding-left: 10px;
     width: 100%;
     height: 40px;
     border-radius: 5px;
+    border: 1px solid rgb(5, 207, 5);
 }
 .serachdiv button{
     width: 20%;
@@ -81,15 +88,17 @@ input{
 }
 hr{
     color: #ffff;
-    margin: 1% 7%;
+    margin:1% 13%;
 }
-.iconsdiv ul{
+.iconsdiv {
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: flex-start; */
     gap: 1rem;
+    color: #ffff;
+    font-size: 2rem;
+    padding-top: 10px;
+
 }
-.iconsdiv ul>li{
+/* .iconsdiv ul>li{
     text-align: left;
 }
 .iconsdiv ul>li>i{
@@ -97,25 +106,8 @@ hr{
   text-align: left;
   color: #ffff;
  
-}
-/* .fa-square-whatsapp{
-    color: rgb(34, 170, 34);
-}
-.fa-square-youtube{
-    color: red;
-}
-.fa-square-facebook{
-    color:blue;
-}
-.fa-square-twitter{
-    color: blue;
-}
-.fa-linkedin{
-    color: blue;
-}
-.fa-square-instagram{
-    color:orange;
 } */
+
 .iconsdiv{
     display: flex;
     justify-content: flex-start;
@@ -166,19 +158,19 @@ hr{
                     <div class="serachdiv">
                         <div class="inputdiv">
                             <input type="text" placeholder="Email Address">
+                            <button style="color: #ffff;border-radius: 5px !important;">Subscribe</button>
                         </div>
-                        <button>Submit</button>
+                        
                     </div>
                     <div class="iconsdiv">
-                        <ul>
-                            <li><i class="fa-brands fa-square-whatsapp"></i></li>
-                            <li><i class="fa-brands fa-square-youtube"></i></li>
-                            <li><i class="fa-brands fa-square-instagram"></i></li>
-                            <li><i class="fa-brands fa-square-facebook"></i></li>
-                            <li><i class="fa-brands fa-linkedin"></i></li>
-                            <li><i class="fa-brands fa-square-twitter"></i></li>
-                            <!-- <li><i class="fa-brands fa-square-youtube"></i></li> -->
-                        </ul>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                            <i class="fa-brands fa-square-youtube"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                            <!-- <i class="fa-brands fa-square-youtube"></i> -->
+                        
                     </div>
                     <div class="mobilediv">
                         <span>
@@ -205,7 +197,7 @@ hr{
             </div>
         </div>
     </footer>
- 
+ <!-- <img src="image (10).png" width="1000px"> -->
 </body>
  
 </html>

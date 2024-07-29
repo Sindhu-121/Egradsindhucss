@@ -48,7 +48,7 @@
                 <i class="fa-solid fa-b icons2"></i>
             </div>
 
-            <div class="sidebaritems1">
+            <div class="sidebar1">
                 <div class="sidebaritems">
                     <i class="fa-regular fa-clock"></i>
                     <p>Dashboard</p>
@@ -57,11 +57,14 @@
                     <i class="fa-solid fa-diagram-project"></i>
                     <p>Network</p>
                 </div>
-                <div class="sidebaritems">
+                <div class="sidebaritems" onclick="toggleSubmenu('toolsSubmenu')">
                     <i class="fa-solid fa-wrench"></i>
                     <p>Tools</p>
-                    <!-- <p>charts</p>
-                <p>Banners</p> -->
+                    <i class="fa-solid fa-chevron-down submenu-icon"></i>
+                </div>
+                <div id="toolsSubmenu" class="submenu">
+                    <p>Charts</p>
+                    <p>Banners</p>
                 </div>
                 <div class="sidebaritems">
                     <i class="fa-solid fa-gear"></i>
@@ -72,39 +75,39 @@
         <div class="sections">
             <section class="section1">
                 <div class="card">
-                    <div style="display: flex;gap: 2rem;margin: 1rem;">
+                    <div style="display: flex;gap: 2rem;margin: 1rem;justify-content: space-between;">
                         <p style="text-align: center;padding-top: 1.5rem;font-size: 1.5rem;color: #082e70;">236,635</p>
-                        <img src="img1.png" width="70rem" height="65rem">
+                        <img src="img1.png" width="80rem" height="75rem">
                     </div>
 
-                    <p>454 Today</p>
+                    <p class="cardp">454 Today</p>
                     <div class="bottomdiv">Visiters</div>
                 </div>
                 <div class="card">
-                    <div style="display: flex;gap: 2rem;margin: 1rem;">
+                    <div style="display: flex;gap: 2rem;margin: 1rem;justify-content: space-between;">
                         <p style="text-align: center;padding-top: 1.5rem;font-size: 1.5rem;color: #082e70;">100,486</p>
-                        <img src="img2.png" width="70rem" height="65rem">
+                        <img src="img2.png" width="80rem" height="75rem">
                     </div>
 
-                    <p style="color: #082e70;">53 New Users</p>
+                    <p style="color: #082e70;" class="cardp">53 New Users</p>
                     <div class="bottomdiv">Users</div>
                 </div>
                 <div class="card">
-                    <div style="display: flex;gap: 2rem;margin: 1rem;">
+                    <div style="display: flex;gap: 2rem;margin: 1rem;justify-content: space-between;">
                         <p style="text-align: center;padding-top: 1.5rem;font-size: 1.5rem;color: #082e70;">236,635</p>
-                        <img src="img3.png" width="70rem" height="65rem">
+                        <img src="img3.png" width="80rem" height="75rem">
                     </div>
 
-                    <p style="color: #082e70;">12 New Orders</p>
+                    <p style="color: #082e70;" class="cardp">12 New Orders</p>
                     <div class="bottomdiv">Orders</div>
                 </div>
                 <div class="card">
-                    <div style="display: flex;gap: 2rem;margin: 1rem;">
+                    <div style="display: flex;gap: 2rem;margin: 1rem;justify-content: space-between;">
                         <p style="text-align: center;padding-top: 1.5rem;font-size: 1.5rem;color: #082e70;">236,635</p>
-                        <img src="img4.png" width="70rem" height="65rem">
+                        <img src="img4.png" width="80rem" height="75rem">
                     </div>
 
-                    <p style="color: #082e70;">$216 Today</p>
+                    <p style="color: #082e70;" class="cardp">$216 Today</p>
                     <div class="bottomdiv">Profit</div>
                 </div>
             </section>
@@ -115,7 +118,8 @@
                     <p style="padding-left: 7px;color: #bfc1c4; font-size: 15px ;">Lorem ipsum Ut wisi enim ad mirm
                         veniam.quis notrud exerci tation dolor sit amet</p>
                     <div style="display: flex;">
-                        <img src="img5.png">
+                        <img src="img5.png" style="width: 625px;
+                        height: 200px;" >
                         <div style="display: flex;flex-direction: column;gap: 1rem;    margin: 2rem;">
                             <div style="display: flex; gap: 10px;">
                                 <div style="width: 1rem; height: 1rem;background-color: #793d77;"></div>
@@ -136,15 +140,16 @@
                 </div>
                 <div class="BarUsers">
                     <div class="BarGraphdiv">Users</div>
-                    <img src="img7.png">
+                    <img src="img7.png" style="width: 650px;">
                 </div>
             </section>
-            <div style="display: flex;flex-direction: column;margin: 1.5rem; padding: 1rem;" class="BarUsers">
+            <div style="display: flex;flex-direction: column;margin: 1.5rem; padding: 1rem;width: 99%;" class="BarUsers">
                 <div style="color: #082e70;">Data Analysis</div>
-                <img src="img6.png">
+                <img src="img6.png" style="width:100%;">
             </div>
         </div>
     </div>
+    <script src="Menu.js"></script>
 </body>
 
 </html>

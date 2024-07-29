@@ -88,8 +88,8 @@ const Section3 = () => {
               <p>Thousands of quiz questions</p>
               <div>Browse AWS courses <i class="fa-solid fa-angle-right"></i></div>
             </div>
-          </div>
-          <div className="Services">
+      
+        
             <div className="Advanced">
               <img src={amazon} />
               <h1>Amazon Web Services1</h1>
@@ -108,7 +108,7 @@ const Section3 = () => {
               <p>Thousands of quiz questions</p>
               <div>Browse AWS courses <i class="fa-solid fa-angle-right"></i></div>
             </div>
-          </div>
+            </div>
         </div>
       </div>
 

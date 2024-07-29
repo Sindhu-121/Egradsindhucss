@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,8 +17,10 @@
             justify-content: space-around;
             align-items: center;
             background-color: #01458c;
-            color: #fff;
+            color: #eceaea;
             padding: 1rem;
+            font-family: "Nunito", sans-serif;
+            font-size: 13px;
         }
 
         .maindiv div {
@@ -24,7 +29,7 @@
 
         .content{
             text-align: right;
-            border-bottom: 3px solid #fff;
+            border-bottom: 2px solid #c7c4c4;
         }
 .chess i{
     text-align: center;
@@ -36,13 +41,29 @@
 .chess{
     text-align: center;
     padding-bottom: 1rem;
+    word-wrap: break-word;
+    width: 279px;
+    font-size: 17px;
+
+}
+.Siegbert{
+    padding-top: 15px;
 }
         .Copyright {
             text-align: center;
             background-color: black;
-            color: #fff;
-            font-size: 20px;
+            color: #c7c4c4;
+            font-size: 15px;
             padding: 10px;
+            font-family: "Nunito", sans-serif;
+        }
+        .heart{
+            display: flex;
+            gap: 9px;
+            margin-left: 1px;
+        }
+        .maindiv h3{
+            color: #ffffff;
         }
     </style>
 </head>
@@ -52,23 +73,24 @@
         <div class="maindiv">
             <div>
                 <h3>CATEGORIES</h3>
-                <div><i class="fa-solid fa-heart"></i> Subscribe</div>
-                <div><i class="fa-solid fa-cart-shopping"></i> Store</div>
-                <div><i class="fa-solid fa-envelope"></i> Contact</div>
-                <div><i class="fa-regular fa-circle-right"></i>Advertise</div>
-                <div><i class="fa-solid fa-folder-minus"></i>Submit</div>
-                <div><i class="fa-solid fa-file-pdf"></i>Sample Issue</div>
-                <div><i class="fa-solid fa-hourglass"></i>Cancel Subscription</div>
-                <div><i class="fa-solid fa-house"></i>Address Change Request</div>
-                <div><i class="fa-solid fa-globe"></i>Style Guide</div>
+                <div class="heart"><i class="fa-solid fa-heart"></i>Subscribe</div>
+                <div class="heart"><i class="fa-solid fa-cart-shopping"></i> Store</div>
+                <div class="heart"><i class="fa-solid fa-envelope"></i> Contact</div>
+                <div class="heart"><i class="fa-regular fa-circle-right"></i>Advertise</div>
+                <div class="heart"><i class="fa-solid fa-folder-minus"></i>Submit</div>
+                <div class="heart"><i class="fa-solid fa-file-pdf"></i>Sample Issue</div>
+                <div class="heart"><i class="fa-solid fa-hourglass"></i>Cancel Subscription</div>
+                <div class="heart"><i class="fa-solid fa-house"></i>Address Change Request</div>
+                <div class="heart"><i class="fa-solid fa-globe"></i>Style Guide</div>
             </div>
             <div class="chess">
                 <i class="fa-solid fa-quote-left"></i>
                 <div>
-                    chess,like love,like music, has the power to make men happy.
+                   <p> chess,like love,like music,</p>
+                   <p style="margin-top: -1rem;"> has the power to make men happy.</p>
                 </div>
 
-                <div>Dr.Siegbert Tarrasch in 1931.</div>
+                <div class="Siegbert">Dr.Siegbert Tarrasch in 1931.</div>
             </div>
 
 
@@ -76,13 +98,13 @@
                 <h3>CONTACT</h3>
                 <img src="ACM_logo-250_orkku9tr.webp">
 
-                <p>office[at]acmchess.com</p>
+                <p style="color: antiquewhite;"><i class="fa-regular fa-paper-plane"></i> office[at]acmchess.com</p>
 
                 <div>
-                    <p>American Chess Magazine</p>
-                    <p>2028 E Ben White Blvd, Ste 240-2969</p>
-                    <p>Austin,Tx 78741</p>
-                    <p>United States of America</p>
+                    <div>American Chess Magazine</div>
+                    <div>2028 E Ben White Blvd, Ste 240-2969</div>
+                    <div>Austin,Tx 78741</div>
+                    <div>United States of America</div>
                 </div>
             
             </div>
@@ -91,6 +113,7 @@
             <div> Copyright(c) 2023 &#169; American chess Magazine</div>
         </div>
     </footer>
+    <!-- <img src="image (11).png" width="1000px"> -->
 </body>
 
 </html>
